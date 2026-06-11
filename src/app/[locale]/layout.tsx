@@ -5,8 +5,8 @@ import Footer from '@/components/layout/Footer';
 
 const locales = ['zh', 'en'];
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const locale = params.locale;
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const isZh = locale === 'zh';
 
   return {
@@ -19,11 +19,13 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  
   if (!locales.includes(locale)) {
     return null;
   }
@@ -34,7 +36,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
-          <Header locale={locale} />
+          <Header />
           <main className="flex-1">{children}</main>
           <Footer />
         </NextIntlClientProvider>

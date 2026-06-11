@@ -3,23 +3,13 @@ import Hero from '@/components/home/Hero';
 import Newsletter from '@/components/home/Newsletter';
 
 export default function Home({ params }: { params: { locale: string } }) {
-  const t = useTranslations('Hero');
   const tHome = useTranslations('Home');
   const locale = params.locale;
 
   return (
     <div>
-      <Hero
-        title={t('title')}
-        subtitle={t('subtitle')}
-        cta1={t('cta1')}
-        cta2={t('cta2')}
-        articles={t('articles')}
-        members={t('members')}
-        countries={t('countries')}
-      />
+      <Hero />
 
-      {/* Pain Points Section */}
       <section className="py-16 max-w-4xl mx-auto px-4">
         <h2 className="text-2xl font-bold text-gray-800 text-center mb-8">
           {tHome('painPoints')}
@@ -46,9 +36,8 @@ export default function Home({ params }: { params: { locale: string } }) {
         </div>
       </section>
 
-      <Newsletter locale={locale} />
+      <Newsletter />
 
-      {/* Placeholder for more content */}
       <section className="py-16 text-center text-gray-500">
         <p className="text-sm">[ 更多功能开发中... ]</p>
       </section>
