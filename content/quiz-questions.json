@@ -1,0 +1,138 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "zh": "您平时容易感到手脚冰凉吗？",
+        "en": "Do you often feel cold hands and feet?"
+      },
+      "options": [
+        { "value": 5, "text": { "zh": "从不", "en": "Never" } },
+        { "value": 4, "text": { "zh": "偶尔", "en": "Sometimes" } },
+        { "value": 3, "text": { "zh": "经常", "en": "Often" } },
+        { "value": 2, "text": { "zh": "总是", "en": "Always" } }
+      ]
+    },
+    {
+      "id": 2,
+      "text": {
+        "zh": "您平时容易出汗吗（非运动时）？",
+        "en": "Do you sweat easily (not during exercise)?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "容易出汗", "en": "Easily" } },
+        { "value": 3, "text": { "zh": "正常", "en": "Normal" } },
+        { "value": 5, "text": { "zh": "很少出汗", "en": "Rarely" } }
+      ]
+    },
+    {
+      "id": 3,
+      "text": {
+        "zh": "您平时容易感到疲倦乏力吗？",
+        "en": "Do you often feel tired and lacking energy?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "非常容易", "en": "Very easily" } },
+        { "value": 2, "text": { "zh": "经常", "en": "Often" } },
+        { "value": 3, "text": { "zh": "偶尔", "en": "Sometimes" } },
+        { "value": 5, "text": { "zh": "从不", "en": "Never" } }
+      ]
+    },
+    {
+      "id": 4,
+      "text": {
+        "zh": "您平时喜欢喝冷饮还是热饮？",
+        "en": "Do you prefer cold or hot drinks?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "喜欢冷饮", "en": "Cold drinks" } },
+        { "value": 3, "text": { "zh": "无所谓", "en": "No preference" } },
+        { "value": 5, "text": { "zh": "喜欢热饮", "en": "Hot drinks" } }
+      ]
+    },
+    {
+      "id": 5,
+      "text": {
+        "zh": "您的食欲如何？",
+        "en": "How is your appetite?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "不好", "en": "Poor" } },
+        { "value": 3, "text": { "zh": "一般", "en": "Average" } },
+        { "value": 5, "text": { "zh": "很好", "en": "Good" } }
+      ]
+    },
+    {
+      "id": 6,
+      "text": {
+        "zh": "您的情绪容易紧张焦虑吗？",
+        "en": "Do you easily feel anxious or stressed?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "经常", "en": "Often" } },
+        { "value": 3, "text": { "zh": "偶尔", "en": "Sometimes" } },
+        { "value": 5, "text": { "zh": "很少", "en": "Rarely" } }
+      ]
+    },
+    {
+      "id": 7,
+      "text": {
+        "zh": "您平时口干舌燥的情况多吗？",
+        "en": "Do you often have dry mouth?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "经常", "en": "Often" } },
+        { "value": 3, "text": { "zh": "偶尔", "en": "Sometimes" } },
+        { "value": 5, "text": { "zh": "很少", "en": "Rarely" } }
+      ]
+    },
+    {
+      "id": 8,
+      "text": {
+        "zh": "您容易感冒生病吗？",
+        "en": "Do you catch colds easily?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "经常", "en": "Often" } },
+        { "value": 3, "text": { "zh": "偶尔", "en": "Sometimes" } },
+        { "value": 5, "text": { "zh": "很少", "en": "Rarely" } }
+      ]
+    },
+    {
+      "id": 9,
+      "text": {
+        "zh": "您的睡眠质量如何？",
+        "en": "How is your sleep quality?"
+      },
+      "options": [
+        { "value": 1, "text": { "zh": "很差（经常失眠）", "en": "Poor (often insomnia)" } },
+        { "value": 3, "text": { "zh": "一般", "en": "Average" } },
+        { "value": 5, "text": { "zh": "很好", "en": "Good" } }
+      ]
+    }
+  ],
+  "results": {
+    "high_score": {
+      "type": { "zh": "平和质", "en": "Balanced Constitution" },
+      "description": {
+        "zh": "您的体质属于健康的平和质，阴阳平衡状态良好。保持健康的生活习惯和作息，是最好的养生方式。",
+        "en": "Your constitution is balanced and healthy. Maintain healthy lifestyle habits and routines."
+      },
+      "suggestions": {
+        "zh": "继续保持规律作息、均衡饮食、适度运动。",
+        "en": "Continue with regular sleep, balanced diet, and moderate exercise."
+      }
+    },
+    "low_score": {
+      "type": { "zh": "偏虚体质", "en": "Deficient Constitution" },
+      "description": {
+        "zh": "您的体质偏虚，可能表现为容易疲倦、手脚冰凉、抵抗力弱等。需要通过调理改善。",
+        "en": "Your constitution tends to be deficient, possibly showing as fatigue, cold hands/feet, weak immunity."
+      },
+      "suggestions": {
+        "zh": "建议：规律作息、温热饮食、适度运动、避免过度劳累。可咨询中医师进行针对性调理。",
+        "en": "Suggestions: Regular sleep, warm diet, moderate exercise, avoid overexertion. Consult a TCM practitioner."
+      }
+    }
+  }
+}

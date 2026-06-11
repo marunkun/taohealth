@@ -1,0 +1,65 @@
+{
+  "Navigation": {
+    "knowledge": "Knowledge",
+    "tools": "Tools",
+    "community": "Community",
+    "about": "About",
+    "login": "Login"
+  },
+  "Hero": {
+    "title": "Reclaim Your Health, Naturally",
+    "subtitle": "A bilingual TCM wellness community for global Chinese and enthusiasts",
+    "cta1": "Explore →",
+    "cta2": "Free Body Type Quiz",
+    "articles": "Articles",
+    "members": "Members",
+    "countries": "Countries"
+  },
+  "Home": {
+    "painPoints": "What are you experiencing?",
+    "sleep": "Can't sleep?",
+    "sleepDesc": "TCM acupoints and diet tips for better sleep",
+    "stomach": "Stomach issues?",
+    "stomachDesc": "Stomach and spleen care guide",
+    "stress": "Stressed?",
+    "stressDesc": "Stress relief with TCM methods",
+    "tools": "Free Tools",
+    "subscribe": "Subscribe to Updates",
+    "subscribeDesc": "Receive curated bilingual health content weekly",
+    "subscribeButton": "Subscribe"
+  },
+  "Knowledge": {
+    "title": "Knowledge Base",
+    "articles": "articles",
+    "comingSoon": "More articles coming soon..."
+  },
+  "Quiz": {
+    "title": "Body Type Quiz",
+    "question": "Question {current} / {total}",
+    "result": "Your Body Type Result",
+    "retake": "Retake Quiz",
+    "browseKnowledge": "Browse Knowledge",
+    "disclaimer": "Disclaimer: This test is for health reference only and does not replace medical diagnosis. If you have health concerns, please consult a medical professional."
+  },
+  "Article": {
+    "back": "Back to Knowledge Base",
+    "related": "Related Content"
+  },
+  "Footer": {
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "copyright": "© 2026 TaoHeal · Health Disclaimer · Privacy Policy · Terms of Service"
+  },
+  "Language": {
+    "switch": "Switch to Chinese"
+  },
+  "Newsletter": {
+    "title": "Subscribe to Wellness Updates",
+    "desc": "Receive curated bilingual health content weekly",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "success": "Subscribed! Thank you.",
+    "error": "Please enter a valid email",
+    "privacy": "By subscribing, you agree to our Privacy Policy"
+  }
+}

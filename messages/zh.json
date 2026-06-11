@@ -1,0 +1,65 @@
+{
+  "Navigation": {
+    "knowledge": "知识库",
+    "tools": "工具",
+    "community": "社区",
+    "about": "关于",
+    "login": "登录"
+  },
+  "Hero": {
+    "title": "用自然方式找回健康",
+    "subtitle": "专为全球华人及中国文化爱好者打造的中医养生双语社区",
+    "cta1": "开始探索 →",
+    "cta2": "免费测试体质",
+    "articles": "知识文章",
+    "members": "会员",
+    "countries": "国家和地区"
+  },
+  "Home": {
+    "painPoints": "你在经历什么？",
+    "sleep": "睡不着？",
+    "sleepDesc": "中医穴位+食疗教你睡好觉",
+    "stomach": "胃不好？",
+    "stomachDesc": "脾胃调理全攻略",
+    "stress": "压力大？",
+    "stressDesc": "疏肝解郁指南",
+    "tools": "免费工具",
+    "subscribe": "订阅更新",
+    "subscribeDesc": "每周收到精选的双语健康内容",
+    "subscribeButton": "免费订阅"
+  },
+  "Knowledge": {
+    "title": "知识库",
+    "articles": "篇文章",
+    "comingSoon": "更多文章正在添加中..."
+  },
+  "Quiz": {
+    "title": "体质测试",
+    "question": "问题 {current} / {total}",
+    "result": "您的体质结果",
+    "retake": "重新测试",
+    "browseKnowledge": "浏览知识库",
+    "disclaimer": "温馨提示：本测试仅供健康参考，不能替代医疗诊断。如有健康疑虑，请咨询专业医疗人员。"
+  },
+  "Article": {
+    "back": "返回知识库",
+    "related": "相关推荐"
+  },
+  "Footer": {
+    "navigation": "导航",
+    "legal": "法律",
+    "copyright": "© 2026 TaoHeal · 健康免责声明 · 隐私政策 · 服务条款"
+  },
+  "Language": {
+    "switch": "切换到英文"
+  },
+  "Newsletter": {
+    "title": "订阅我们的养生资讯",
+    "desc": "每周收到精选的双语健康内容",
+    "placeholder": "您的邮箱地址",
+    "button": "免费订阅",
+    "success": "订阅成功！感谢您的关注。",
+    "error": "请输入有效的邮箱地址",
+    "privacy": "订阅即表示您同意我们的隐私政策"
+  }
+}
